@@ -2,4 +2,12 @@
     background: white;
     height: 250px;
     width: 190px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 3px;
+    padding: 3px;
+    animation: grow;
 } 
+.product { transition: all .2s ease-in-out; }
+.product:hover { transform: scale(1.1); }

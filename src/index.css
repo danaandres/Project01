@@ -6,3 +6,20 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.allproducts {
+  display: flex;
+  float: right;
+  width: 70%;
+}
+
+.cartbody {
+  float: left;
+  width: 30%;
+}
+
+.body {
+  display: inline-block;
+  position: relative;
+  vertical-align: top;
+}

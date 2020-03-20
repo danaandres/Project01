@@ -1,14 +1,27 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import './Card.css';
+import './Header.css';
+import './Cart.css';
 import Header from './Header';
 import Card from './Card';
+import Cart from './Cart';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
     <div>
         <Header/>
-        <Card/>
+        <div clas='body' >
+            <div class='cartbody'>
+                <Cart/>
+            </div>
+            <div class='allproducts'>
+                <Card/>
+                <Card/>
+                <Card/>
+            </div>
+        </div>
     </div>
     ,document.getElementById('root'));
 

@@ -1,0 +1,10 @@
+.mainleft {
+    background: blue;
+    height: 380px;
+    width: 300px;
+    margin-top: 20px;
+}
+
+.contact {
+    display: inline;
+}
